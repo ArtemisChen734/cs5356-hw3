@@ -6,28 +6,38 @@
   <title>My Personal Homepage</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-      <h1>Welcome to My Personal Homepage</h1>
-    </header>
-    
-    <section>
-      <h2>About Me</h2>
-      <img src="Linabell.png" alt="My Photo" width="200">
-      <p>Hi! I'm Linabell, a web development enthusiast who loves creating fun and interactive projects. In my free time, I enjoy reading, coding, and exploring new technologies!</p>
-    </section>
-    
-    <section>
-    <h2>More About Me</h2>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to My Personal Homepage</h1>
+  </header>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="Linabell.png" alt="Zihan Chen's Photo" width="200">
+    <p>Hi! I'm Zihan Chen, a passionate software engineer with a background in Electrical and Computer Engineering. I specialize in full-stack development, machine learning, and system optimization. During my time at Cornell Tech and the University of Toronto, I honed my skills in C++, Python, JavaScript, and various DevOps tools.</p>
+    <p>I have experience working on cutting-edge projects, such as developing imaging systems for automotive platforms at Qualcomm and building machine learning models for face mask detection. My technical interests span from embedded systems to cloud-based web applications, with a strong focus on efficiency and scalability.</p>
     <details>
-      <summary>Click to expand!</summary>
-      <p>I love traveling, reading books on technology, and exploring new web development trends. I'm also a big fan of sci-fi movies and enjoy hiking during weekends.</p>
+      <summary>More About Me</summary>
+      <p>In my free time, I enjoy coding, exploring new technologies, and contributing to open-source projects. I also love hiking, reading sci-fi books, and learning about modern architecture trends.</p>
     </details>
   </section>
-    
-    <footer>
-      <p>© 2025 My Personal Homepage. All rights reserved.</p>
-    </footer>
-  
-    <script src="script.js"></script>
-  </body>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me at <a href="mailto:zc528@cornell.edu">zc528@cornell.edu</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 My Personal Homepage. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
